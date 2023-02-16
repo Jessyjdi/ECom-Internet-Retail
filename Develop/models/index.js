@@ -10,7 +10,7 @@ foreign key relationships that match the column
 we created in the respective models.*/
 
 // Products belongsTo Category
-Product.belongTo(Category,{
+Product.belongsTo(Category,{
   foreignKey: 'category_id',
 });
 

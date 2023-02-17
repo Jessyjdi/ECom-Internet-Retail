@@ -8,6 +8,7 @@
   - [Mock-Up](#mock-up)
   - [Database Models](#database-models)
   - [Associations](#associations)
+  - [Additional-Info](#additional-info)
   - [Reach-me](#reach-me)
   - [GitHub-name](#github-name)
   - [Video-Link](#video-link)
@@ -173,6 +174,13 @@ You'll need to execute association methods on your Sequelize models to create th
 
 * `Product` belongs to many `Tag` models, and `Tag` belongs to many `Product` models. Allow products to have multiple tags and tags to have many products by using the `ProductTag` through model.
 
+## Additional-Info
+
+UPDATE product API- When the Product id is sent { tagIds:[4,5]}, the id is created in the product_tag table for the Product_id '5' tagId '4' and tagId '5' is assigned, Overall it is stored in the product_tag table with the id 13 and 14. Please see the below image.
+![product_tag Table](./Assets/Product_TagTable.PNG)
+![tagIds response](./Assets/Tagids_Response.PNG)
+
+
 ## Reach-me
 
 jessyjosephine.mscit@gmail.com
@@ -183,6 +191,6 @@ Github: https://github.com/Jessyjdi
 
 ## Video-Link
 
-https://drive.google.com/file/d/1CoonyG3KINplVE_B6PgSKZRAoMF864Vz/view
+https://drive.google.com/file/d/1K5SGuSxIIXr-nNjxvNZoGJASuTtRxqc-/view
 
 
